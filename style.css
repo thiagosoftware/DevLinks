@@ -97,7 +97,10 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 24px 0;
+  padding: 24px 16px; /* Adiciona espaços no lado esquerdo e direito */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 430px; /* Define a largura máxima */
+  width: 100%; /* Garante que ela ocupe todo o espaço disponível */
 }
 
 ul li a {
@@ -115,6 +118,7 @@ ul li a {
   text-decoration: none;
   transition: background 0.2s;
 }
+
 
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
